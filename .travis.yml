@@ -3,5 +3,5 @@ services:
     - docker
 
 script:
-    docker build -t project .
-    docker run --interactive project
+   - docker build -t project .
+   - docker run --interactive project
